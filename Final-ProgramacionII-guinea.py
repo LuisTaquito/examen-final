@@ -55,7 +55,7 @@ marco.grid_columnconfigure((0, 1), weight=1)
 
 # Título
 lbl_titulo = ctk.CTkLabel(
-    marco, text="📦 Registro de Producto vr2",
+    marco, text="📦 Registro de Producto v",
     font=ctk.CTkFont(family="Segoe UI", size=24, weight="bold"),
 )
 lbl_titulo.grid(row=0, column=0, columnspan=2, pady=(30, 5))
@@ -96,7 +96,7 @@ btn_registrar.grid(row=6, column=0, padx=(35, 8), sticky="ew")
 btn_limpiar = ctk.CTkButton(
     marco, text="Limpiar", height=40, corner_radius=10,
     font=ctk.CTkFont(size=14, weight="bold"),
-    fg_color="#E74C3C", hover_color="#C0392B",
+    fg_color="#E74C3C", hover_color="#A79A99",
     command=limpiar_campos,
 )
 btn_limpiar.grid(row=6, column=1, padx=(8, 35), sticky="ew")
