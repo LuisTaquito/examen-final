@@ -55,13 +55,13 @@ marco.grid_columnconfigure((0, 1), weight=1)
 
 # Título
 lbl_titulo = ctk.CTkLabel(
-    marco, text="📦 Registro de Producto",
+    marco, text="📦 Registro de Producto vr2",
     font=ctk.CTkFont(family="Segoe UI", size=24, weight="bold"),
 )
 lbl_titulo.grid(row=0, column=0, columnspan=2, pady=(30, 5))
 
 lbl_sub = ctk.CTkLabel(
-    marco, text="Ingrese los datos del producto",
+    marco, text="Ingrese el datos de tu producto ",
     font=ctk.CTkFont(size=13), text_color="gray70",
 )
 lbl_sub.grid(row=1, column=0, columnspan=2, pady=(0, 20))
